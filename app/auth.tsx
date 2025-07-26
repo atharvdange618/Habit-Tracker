@@ -71,7 +71,7 @@ const AuthScreen = () => {
         <TextInput
           label="Password"
           autoCapitalize="none"
-          keyboardType="email-address"
+          secureTextEntry
           mode="outlined"
           style={styles.input}
           onChangeText={setPassword}
